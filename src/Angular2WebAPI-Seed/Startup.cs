@@ -46,8 +46,7 @@ namespace Angular2WebAPI_Seed
 
                 routes.MapWebApiRoute("defaultApi",
                                       "api/{controller}/{id?}");
-            }
-                );
+            });
         }
     }
 }
